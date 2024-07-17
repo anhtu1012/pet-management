@@ -1,0 +1,34 @@
+.custom {
+  .ant-modal-content {
+    width: 300px;
+    height: 300px;
+  }
+  // Tùy chỉnh tiêu đề modal
+  .ant-modal-header {
+    background-color: #5a5a5a; // Thay đổi màu nền của phần header
+    color: white; // Màu chữ của tiêu đề
+
+    .ant-modal-title {
+      font-weight: 700; // Làm đậm chữ
+    }
+  }
+
+  .ant-modal-content {
+    background-color: rgb(239, 235, 221); 
+  }
+
+  .ant-modal-close {
+    color: red;
+  }
+
+  .ant-modal-body {
+    padding: 24px;
+    color: #333; 
+    font-size: 16px; 
+
+
+    .ant-image {
+      margin: 16px 0px; 
+    }
+  }
+}
